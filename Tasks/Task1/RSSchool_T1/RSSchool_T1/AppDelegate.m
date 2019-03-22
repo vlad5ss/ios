@@ -2,6 +2,7 @@
 #import "SummArray.h"
 #import "Diagonal.h"
 #import "Pangrams.h"
+#import "Encryption.h"
 
 @interface AppDelegate ()
 
@@ -34,8 +35,9 @@
     //Task3
     Pangrams*task3 =[[Pangrams alloc] init];
     NSLog(@"%d",[task3 pangrams:@"go to work"]);
-    //Task4
-    
+    //Task4 Encryption
+    Encryption*task4 =[[Encryption alloc] init];
+    NSLog(@"%@",[task4 encryption:@"sdsfsfasfafdaerqwer"]);
     
     
     //Task5

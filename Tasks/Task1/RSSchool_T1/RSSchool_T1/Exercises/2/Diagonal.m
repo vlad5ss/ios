@@ -14,11 +14,11 @@
         {
             //finding sum of primary diagonal
             if (i==j) {
-                d1 +=  [[[array objectAtIndex:0] objectAtIndex:0] intValue];
+                d1 +=  [[[array objectAtIndex:i] objectAtIndex:j] intValue];
             }
             // finding sum of secondary diagonal
             if (i == cols - j - 1) {
-                d2 += [[[array objectAtIndex:0] objectAtIndex:0] intValue];
+                d2 += [[[array objectAtIndex:i] objectAtIndex:j] intValue];
             }
         }
         
