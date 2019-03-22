@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0414E23422453D4900A9162D /* Diagonal_Test.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBA86A0224252B300AFC095 /* Diagonal_Test.m */; };
 		BDBA865022419F4D00AFC095 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBA864F22419F4D00AFC095 /* AppDelegate.m */; };
 		BDBA865222419F4E00AFC095 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDBA865122419F4E00AFC095 /* Assets.xcassets */; };
 		BDBA865522419F4E00AFC095 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDBA865322419F4E00AFC095 /* LaunchScreen.storyboard */; };
@@ -36,7 +37,6 @@
 		BDBA869A22424C8400AFC095 /* Sorted.h in Sources */ = {isa = PBXBuildFile; fileRef = BDBA868B2242473900AFC095 /* Sorted.h */; };
 		BDBA869E2242528F00AFC095 /* Diagonal.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBA869D2242528F00AFC095 /* Diagonal.m */; };
 		BDBA869F2242528F00AFC095 /* Diagonal.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBA869D2242528F00AFC095 /* Diagonal.m */; };
-		BDBA86A1224252B300AFC095 /* Diagonal_Test.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBA86A0224252B300AFC095 /* Diagonal_Test.m */; };
 		BDBA86A322425DCE00AFC095 /* diagonaldifference.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BDBA86A222425DCD00AFC095 /* diagonaldifference.pdf */; };
 		BDBA86A422425DCE00AFC095 /* diagonaldifference.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BDBA86A222425DCD00AFC095 /* diagonaldifference.pdf */; };
 		BDBA86A522426B3000AFC095 /* Diagonal.h in Sources */ = {isa = PBXBuildFile; fileRef = BDBA869C2242528F00AFC095 /* Diagonal.h */; };
@@ -335,9 +335,9 @@
 			files = (
 				BDBA86A522426B3000AFC095 /* Diagonal.h in Sources */,
 				BDBA869F2242528F00AFC095 /* Diagonal.m in Sources */,
-				BDBA86A1224252B300AFC095 /* Diagonal_Test.m in Sources */,
 				BDBA869922424C8400AFC095 /* SummArray.h in Sources */,
 				BDBA869A22424C8400AFC095 /* Sorted.h in Sources */,
+				0414E23422453D4900A9162D /* Diagonal_Test.m in Sources */,
 				BDBA867E2241AC0B00AFC095 /* Encryption.h in Sources */,
 				BDBA867F2241AC1600AFC095 /* Encryption.m in Sources */,
 				BDBA86742241A6C500AFC095 /* Pangrams.h in Sources */,

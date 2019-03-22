@@ -32,15 +32,15 @@
     
     [parent2 diagonalDifference:myStandardArray];
     NSLog(@"%@",[parent2 diagonalDifference:myStandardArray]);
-    //Task3
+    //Task3 not completed work
     Pangrams*task3 =[[Pangrams alloc] init];
     NSLog(@"%d",[task3 pangrams:@"go to work"]);
-    //Task4 Encryption
+    //Task4 Encryption not completed work
     Encryption*task4 =[[Encryption alloc] init];
     NSLog(@"%@",[task4 encryption:@"sdsfsfasfafdaerqwer"]);
     
     
-    //Task5
+    //Task5 not completed work
     
     
     return YES;
