@@ -1,4 +1,5 @@
 #import "ViewController.h"
+#import "KidnapperNote.h"
 
 @interface ViewController ()
 

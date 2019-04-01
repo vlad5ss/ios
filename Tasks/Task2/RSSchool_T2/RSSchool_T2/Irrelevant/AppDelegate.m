@@ -1,4 +1,6 @@
 #import "AppDelegate.h"
+#import "KidnapperNote.h"
+
 
 @interface AppDelegate ()
 @end
@@ -10,6 +12,12 @@
   [self.window setRootViewController: [UIViewController new]];
   self.window.backgroundColor = [UIColor whiteColor];
   [self.window makeKeyAndVisible];
+    
+    KidnapperNote*task4=[[KidnapperNote alloc] init];
+    NSLog(@"%d",[task4 checkMagazine:@"asdasdasda" note:@"sdsa"]);
+    
+    
+    
   return YES;
 }
 
