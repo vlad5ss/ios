@@ -18,18 +18,8 @@ static NSString* const MACHINE_DEADLINE = @"2208:08:14@37\\13/03";
 
 @implementation DoomsdayMachine
 
-- (instancetype)init
-{
-    self = [super init];
-    if (self) {
-        _machineDateFormatter = [NSDateFormatter new];
-        [_machineDateFormatter setDateFormat:MACHINE_DATE_FORMAT];
-    }
-    return self;
-}
 
 - (id<AssimilationInfo>)assimilationInfoForCurrentDateString:(NSString *)dateString {
-    
     NSDate* sendingDate = [_machineDateFormatter dateFromString:dateString];
     NSDate* deadlineDate = [_machineDateFormatter dateFromString:MACHINE_DEADLINE];
     
